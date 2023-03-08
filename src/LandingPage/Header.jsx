@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import logo from '../images/cygio-logo.png'
+import logo from '../images/cygio-logo3.png'
 import icon from '../images/cygio-icon.png'
 export default function Header() {
   return (
@@ -11,7 +11,6 @@ export default function Header() {
             <div
               style={{
                 display: 'flex',
-                //   justifyContent: 'center',
                 alignItems: 'center',
                 height: '75px',
               }}

@@ -1,25 +1,24 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import Header from './Header'
-export default function HeroSection() {
+
+export default function Section2() {
   return (
-    <div className="first">
-      <Header />
+    <div>
       <Container>
         <Row className="m-0 hero_section">
           <Col md={6} className="">
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <div>
-                <h1 className="hero_heading">
-                  Promoting Brand Inclusivity for African Businesses!
+                <h1 className="section_heading">
+                  Schedule Content Distribution
                 </h1>
-                <p className="hero_desc">
-                  Cygio provides digital marketers and content creators with
-                  tools that enable them create and distribute contents across
-                  social platforms at scale in order to optimize customer
-                  interactions.
+                <p className="section_desc">
+                  ffdfa afasf asfsdfa afsd fsadfsda fasd fadfsf fasdf fasd fasd
+                  fadfasdf fdfdfdfdf fdfafasd fasdfsf fasdsfas fasdfasd fasdf
+                  fasdfasd fasdf adfasd fasdf fasd fasdfasd fadfasdf faf
+                  fasdfasdf.
                 </p>
-                <button className="land_btn">Start Your Free Trial</button>
+                <button className="land_btn">Text Goes Here</button>
                 <p
                   className="hero_desc mt-1"
                   style={{ fontSize: 13, fontWeight: 'bold' }}
