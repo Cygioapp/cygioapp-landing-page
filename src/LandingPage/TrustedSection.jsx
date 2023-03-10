@@ -7,7 +7,7 @@ import { AiOutlineGoogle, AiFillApple, AiOutlineAmazon } from 'react-icons/ai'
 import {SiOpenai} from 'react-icons/si'
 export default function TrustedSection() {
   return (
-    <div className="section2">
+    <div className="trusted">
       <Container>
         <Row className="p-5">
           <Col md={1}></Col>

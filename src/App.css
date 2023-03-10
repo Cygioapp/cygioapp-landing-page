@@ -191,3 +191,45 @@ background-size: cover; */
   font-size: 18px;
   color: var(--primaryColor);
 }
+
+.trusted_icons_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  color: rgb(196, 196, 196);
+}
+
+.heading2 {
+  /* font-weight: bold; */
+  font-weight: 900;
+  font-size: 30px;
+  /* font-size: 500; */
+}
+
+
+.trusted{
+  background-color: #f6bc474e;
+}
+
+.apple,
+.google {
+  width: 150px;
+  /* height: 20px; */
+}
+
+.footer{
+  background-color: var(--primaryColor);
+  color: white;
+}
+
+.footer_p{
+  font-weight: bold;
+}
+
+.sub_p{
+  font-size: 12px;
+}
+.fff{
+  width: 130px;
+}

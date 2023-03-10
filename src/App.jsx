@@ -1,11 +1,14 @@
 import { Container } from 'reactstrap'
 import './App.css'
+import CustomersReview from './LandingPage/CustomersReview'
 import Footer from './LandingPage/Footer'
 import Header from './LandingPage/Header'
 import HeroSection from './LandingPage/HeroSection'
+import Newsletter from './LandingPage/Newsletter'
 import Section1 from './LandingPage/Section1'
 import Section2 from './LandingPage/Section2'
 import Section3 from './LandingPage/Section3'
+import Section4 from './LandingPage/Section4'
 import SectionDivider from './LandingPage/SectionDivider'
 import TrustedSection from './LandingPage/TrustedSection'
 
@@ -17,7 +20,10 @@ function App() {
       <Section2 />
       <TrustedSection />
       <Section3 />
-      <SectionDivider />
+      <Section4 />
+      <CustomersReview />
+      <Newsletter />
+      {/* <SectionDivider /> */}
       <Footer />
     </>
   )
