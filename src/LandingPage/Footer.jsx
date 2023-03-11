@@ -55,7 +55,7 @@ export default function Footer() {
         <hr />
         <Row>
           <Col md={6}>
-            <p style={{ color: 'grey', fontSize: 12, margin: 0 }}>
+            <p style={{ color: 'white', fontSize: 12, margin: 0 }}>
               © Copyright 2023 Cygio. All Rights Reserved. Privacy | Terms |
               Policy | Cookies
             </p>
