@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'reactstrap'
 
 export default function Section1() {
   return (
-    <div>
+    <div className='bg-primary'>
       <Container>
         <Row className="m-0 hero_section">
           <Col md={6} className="">

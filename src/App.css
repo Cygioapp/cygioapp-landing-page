@@ -290,3 +290,15 @@ background-size: cover; */
   border-radius: 0px 20px 20px 0px;
   background-repeat: no-repeat;
 }
+
+.cus_card{
+  border-radius: 30px !important;
+  border: none !important;
+
+}
+
+.cus_name{
+  color: var(--primaryColor);
+  font-size: 20px;
+  font-weight: bold;
+}

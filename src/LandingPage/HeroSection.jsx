@@ -15,10 +15,10 @@ export default function HeroSection() {
                   Promoting Brand Inclusivity for African Businesses!
                 </h1>
                 <p className="hero_desc">
-                  Cygio provides digital marketers and content creators with
-                  tools that enable them create and distribute contents across
-                  social platforms at scale in order to optimize customer
-                  interactions.
+                  Cygio is Africa’s largest social management platform,
+                  combining the power of social creation, social listening, and
+                  influncer marketing to enable in-house brands build the
+                  ultimate customer experience.
                 </p>
                 <button className="land_btn">Start Your Free Trial</button>
                 <p
@@ -31,12 +31,16 @@ export default function HeroSection() {
             </div>
             <div style={{ display: 'flex', gap: 10 }} className="mt-4">
               <div>
-                <img className="apple" src='https://res.cloudinary.com/dx5ilizca/image/upload/v1678514509/apple_sm881k.png' alt="downloadinappstore" />
+                <img
+                  className="apple"
+                  src="https://res.cloudinary.com/dx5ilizca/image/upload/v1678514509/apple_sm881k.png"
+                  alt="downloadinappstore"
+                />
               </div>
               <div>
                 <img
                   className="google"
-                  src='https://res.cloudinary.com/dx5ilizca/image/upload/v1678514510/google_ard7pi.png'
+                  src="https://res.cloudinary.com/dx5ilizca/image/upload/v1678514510/google_ard7pi.png"
                   alt="downloadinplaystore"
                 />
               </div>
