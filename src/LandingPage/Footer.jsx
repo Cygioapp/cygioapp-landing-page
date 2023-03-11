@@ -1,7 +1,5 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import apple from '../Images/apple.png'
-import google from '../Images/google.png'
 import { ImFacebook2 } from 'react-icons/im'
 import { BsInstagram, BsLinkedin, BsTwitter, BsTiktok } from 'react-icons/bs'
 export default function Footer() {
@@ -70,14 +68,14 @@ export default function Footer() {
               <div>
                 <img
                   className="apple fff"
-                  src={apple}
+                  src='https://res.cloudinary.com/dx5ilizca/image/upload/v1678514509/apple_sm881k.png'
                   alt="downloadinappstore"
                 />
               </div>
               <div>
                 <img
                   className="google fff"
-                  src={google}
+                  src='https://res.cloudinary.com/dx5ilizca/image/upload/v1678514510/google_ard7pi.png'
                   alt="downloadinplaystore"
                 />
               </div>

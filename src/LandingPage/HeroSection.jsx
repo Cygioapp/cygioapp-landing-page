@@ -1,8 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import Header from './Header'
-import apple from '../Images/apple.png'
-import google from '../Images/google.png'
 
 export default function HeroSection() {
   return (
@@ -33,12 +31,12 @@ export default function HeroSection() {
             </div>
             <div style={{ display: 'flex', gap: 10 }} className="mt-4">
               <div>
-                <img className="apple" src={apple} alt="downloadinappstore" />
+                <img className="apple" src='https://res.cloudinary.com/dx5ilizca/image/upload/v1678514509/apple_sm881k.png' alt="downloadinappstore" />
               </div>
               <div>
                 <img
                   className="google"
-                  src={google}
+                  src='https://res.cloudinary.com/dx5ilizca/image/upload/v1678514510/google_ard7pi.png'
                   alt="downloadinplaystore"
                 />
               </div>

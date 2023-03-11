@@ -220,7 +220,7 @@ background-size: cover; */
 .footer {
   /* background-color: var(--primaryColor); */
   color: white;
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
   background-repeat: repeat;
