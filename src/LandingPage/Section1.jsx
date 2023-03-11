@@ -12,22 +12,15 @@ export default function Section1() {
           <Col md={6} className="">
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <div>
-                <h1 className="section_heading">
-                  Distribute Contents Across Multiple Platform
-                </h1>
+                <h1 className="section_heading">Social Creation</h1>
                 <p className="section_desc">
-                  ffdfa afasf asfsdfa afsd fsadfsda fasd fadfsf fasdf fasd fasd
-                  fadfasdf fdfdfdfdf fdfafasd fasdfsf fasdsfas fasdfasd fasdf
-                  fasdfasd fasdf adfasd fasdf fasd fasdfasd fadfasdf faf
-                  fasdfasdf.
+                  Managing your business presence across multiple social
+                  platforms has never been easier. With Cygio you can create and
+                  manage content at scale, tailoring your content to fit each
+                  channel in just the perfect format.
                 </p>
                 <button className="land_btn">Text Goes Here</button>
-                <p
-                  className="hero_desc mt-1"
-                  style={{ fontSize: 13, fontWeight: 'bold' }}
-                >
-                  No credit card required!
-                </p>
+              
               </div>
             </div>
           </Col>

@@ -9,22 +9,17 @@ export default function Section2() {
           <Col md={6} className="">
             <div style={{ display: 'flex', justifyContent: 'center' }}>
               <div>
-                <h1 className="section_heading">
-                  Schedule Content Distribution
-                </h1>
+                <h1 className="section_heading">Smart Inboxes</h1>
                 <p className="section_desc">
-                  ffdfa afasf asfsdfa afsd fsadfsda fasd fadfsf fasdf fasd fasd
-                  fadfasdf fdfdfdfdf fdfafasd fasdfsf fasdsfas fasdfasd fasdf
-                  fasdfasd fasdf adfasd fasdf fasd fasdfasd fadfasdf faf
-                  fasdfasdf.
+                  Unify all your business chats across all platforms, enabling
+                  you optimize customer interactions and drive sales. Our
+                  fine-tuned AI models enables you to maintain communication
+                  with your customers, by inferring conversation intent and
+                  providing accurate feedbacks all on auto-pilot; think of
+                  chatbots, but smarter and more intuitive.
                 </p>
                 <button className="land_btn">Text Goes Here</button>
-                <p
-                  className="hero_desc mt-1"
-                  style={{ fontSize: 13, fontWeight: 'bold' }}
-                >
-                  No credit card required!
-                </p>
+              
               </div>
             </div>
           </Col>
