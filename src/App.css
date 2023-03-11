@@ -302,3 +302,12 @@ background-size: cover; */
   font-size: 20px;
   font-weight: bold;
 }
+.cust{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.cus_div{
+  position: absolute;
+  top: -25px;
+}

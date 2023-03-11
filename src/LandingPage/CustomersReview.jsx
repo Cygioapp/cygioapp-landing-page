@@ -1,37 +1,38 @@
 import React from 'react'
 import { AiOutlineFacebook } from 'react-icons/ai'
-import { Card, Col, Container, Row } from 'reactstrap'
+import { Card, Col, Container, NavItem, Row } from 'reactstrap'
 import { RiDoubleQuotesL } from 'react-icons/ri'
 import { primaryColor, secondaryColor } from './Colors'
+import profile from '../images/Capture.jpg'
 export default function CustomersReview() {
   const customers = [
     {
       name: 'Future Hndrx',
       icon: <AiOutlineFacebook />,
       comment: 'afasf fadfasf fasdfas fasdfas fasdfasd fasd fasfs',
-      image: '',
-      title: 'Doctor',
+      image: <img src={profile} alt="customer" className="cust shadow" />,
+      title: 'Artist',
     },
     {
       name: 'Future Hndrx',
       icon: <AiOutlineFacebook />,
       comment: 'afasf fadfasf fasdfas fasdfas fasdfasd fasd fasfs',
-      image: '',
-      title: 'Doctor',
+      image: <img src={profile} alt="customer" className="cust shadow" />,
+      title: 'Artist',
     },
     {
       name: 'Future Hndrx',
       icon: <AiOutlineFacebook />,
       comment: 'afasf fadfasf fasdfas fasdfas fasdfasd fasd fasfs',
-      image: '',
-      title: 'Doctor',
+      image: <img src={profile} alt="customer" className="cust shadow" />,
+      title: 'Artist',
     },
     {
       name: 'Future Hndrx',
       icon: <AiOutlineFacebook />,
       comment: 'afasf fadfasf fasdfas fasdfas fasdfasd fasd fasfs',
-      image: '',
-      title: 'Doctor',
+      image: <img src={profile} alt="customer" className="cust shadow" />,
+      title: 'Artist',
     },
   ]
   return (
@@ -47,19 +48,16 @@ export default function CustomersReview() {
           {customers.map((c) => (
             <Col md={3}>
               <Card className="cus_card p-4 shadow ">
-                <div
-                  style={{
-                    display: 'flex',
-                    justifyContent: 'space-between',
-                    alignItems: 'center',
-                  }}
-                >
-                  <p className="cus_name">{c.name}</p>
-                  {c.icon}
-                </div>
+                <div className="cus_div">{c.image}</div>
+                <p className="cus_name m-0 mt-3">{c.name}</p>
+                <p className="" style={{ color: secondaryColor, fontSize: 12 }}>
+                  {c.title}
+                </p>
                 <div style={{ display: 'flex' }}>
                   <RiDoubleQuotesL />
-                  <span style={{color:secondaryColor}}>------------------------------</span>
+                  <span style={{ color: secondaryColor }}>
+                    ------------------------------
+                  </span>
                 </div>
 
                 <p style={{ color: primaryColor, fontSize: 13 }}>{c.comment}</p>
