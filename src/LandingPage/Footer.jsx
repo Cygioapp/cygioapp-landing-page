@@ -2,9 +2,11 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import apple from '../Images/apple.png'
 import google from '../Images/google.png'
+import { ImFacebook2 } from 'react-icons/im'
+import { BsInstagram, BsLinkedin, BsTwitter, BsTiktok } from 'react-icons/bs'
 export default function Footer() {
   return (
-    <div className="footer">
+    <div className="footer pb-4">
       <Container>
         <Row className="m-0 p-4">
           <Col md={3}>
@@ -26,32 +28,44 @@ export default function Footer() {
             <p className="sub_p">Unifying Notifications</p>
           </Col>
           <Col md={3}>
-            <div style={{ float: 'right', textAlign: 'right' }}>
-              <p className="footer_p">Integration</p>
-              <p className="sub_p">Facebook Management</p>
-              <p className="sub_p">Twitter Management</p>
-              <p className="sub_p">Instagram Management</p>
-              <p className="sub_p">LinkedIn Management</p>
-              <p className="sub_p">TikTok Management</p>
-            </div>
+            {/* <div style={{ float: 'right', textAlign: 'right' }}> */}
+            <p className="footer_p">Integration</p>
+            <p className="sub_p">Facebook Management</p>
+            <p className="sub_p">Twitter Management</p>
+            <p className="sub_p">Instagram Management</p>
+            <p className="sub_p">LinkedIn Management</p>
+            <p className="sub_p">TikTok Management</p>
+            {/* </div> */}
           </Col>
           <Col md={3} className="">
-            <div style={{ float: 'right', textAlign: 'right' }}>
-              <p className="footer_p">Company</p>
-              <p className="sub_p">About Cygio</p>
-              <p className="sub_p">Pricing</p>
-              <p className="sub_p">Investors</p>
-              <p className="sub_p">Security</p>
+            {/* <div style={{ float: 'right', textAlign: 'right' }}> */}
+            <p className="footer_p">Company</p>
+            <p className="sub_p">About Cygio</p>
+            <p className="sub_p">Pricing</p>
+            <p className="sub_p">Investors</p>
+            <p className="sub_p">Security</p>
+            <div style={{ display: 'flex', gap: 20, fontSize:20 }}>
+              <ImFacebook2 />
+              <BsInstagram />
+              <BsLinkedin />
+              <BsTwitter />
+              <BsTiktok />
             </div>
+            {/* </div> */}
           </Col>
         </Row>
         <hr />
         <Row>
-          <Col md={6}></Col>
+          <Col md={6}>
+            <p style={{ color: 'grey', fontSize: 12, margin: 0 }}>
+              © Copyright 2023 Cygio. All Rights Reserved. Privacy | Terms |
+              Policy | Cookies
+            </p>
+          </Col>
           <Col md={6}>
             <div
               style={{ display: 'flex', gap: 10, justifyContent: 'flex-end' }}
-              className="mt-4"
+              className=""
             >
               <div>
                 <img
@@ -75,3 +89,111 @@ export default function Footer() {
     </div>
   )
 }
+
+// import React, { useState } from "react";
+// import { Card, Col, Row } from "reactstrap";
+
+// const menuItems = [
+//   {
+//     id: 1,
+//     name: "Pizza Margherita",
+//     price: 9.99,
+//     image: "https://via.placeholder.com/150",
+//   },
+//   {
+//     id: 2,
+//     name: "Spaghetti Carbonara",
+//     price: 12.99,
+//     image: "https://via.placeholder.com/150",
+//   },
+//   {
+//     id: 3,
+//     name: "Caesar Salad",
+//     price: 7.99,
+//     image: "https://via.placeholder.com/150",
+//   },
+//   {
+//     id: 4,
+//     name: "Cheeseburger",
+//     price: 8.99,
+//     image: "https://via.placeholder.com/150",
+//   },
+// ];
+
+// function MenuItem({ item, onAddToCart }) {
+//   const [quantity, setQuantity] = useState(1);
+
+//   const handleQuantityChange = (event) => {
+//     setQuantity(parseInt(event.target.value));
+//   };
+
+//   const handleAddToCart = () => {
+//     onAddToCart({ item, quantity });
+//   };
+
+//   return (
+//     <div className="menu-item">
+//       <img src={item.image} alt={item.name} />
+//       <h3>{item.name}</h3>
+//       <p>Price: ${item.price.toFixed(2)}</p>
+//       <input
+//         type="number"
+//         min="1"
+//         value={quantity}
+//         onChange={handleQuantityChange}
+//       />
+//       <button onClick={handleAddToCart}>Add to cart</button>
+//     </div>
+//   );
+// }
+
+// function OrderPage() {
+//   const [cartItems, setCartItems] = useState([]);
+
+//   const handleAddToCart = ({ item, quantity }) => {
+//     const existingItemIndex = cartItems.findIndex(
+//       (cartItem) => cartItem.item.id === item.id
+//     );
+//     if (existingItemIndex >= 0) {
+//       const newCartItems = [...cartItems];
+//       newCartItems[existingItemIndex].quantity += quantity;
+//       setCartItems(newCartItems);
+//     } else {
+//       setCartItems([...cartItems, { item, quantity }]);
+//     }
+//   };
+
+//   const handleRemoveFromCart = (itemId) => {
+//     const newCartItems = cartItems.filter(
+//       (cartItem) => cartItem.item.id !== itemId
+//     );
+//     setCartItems(newCartItems);
+//   };
+
+//   const cartTotal = cartItems.reduce(
+//     (total, cartItem) => total + cartItem.item.price * cartItem.quantity,
+//     0
+//   );
+
+//   return (
+//     <div>
+//       <h1>Menu</h1>
+//       <Row>
+//         {menuItems.map((item) => (
+//           <Col md={4} key={item.id}>
+//             <MenuItem item={item} onAddToCart={handleAddToCart} />
+//           </Col>
+//         ))}
+//       </Row>
+//       <hr />
+//       <h2>Cart</h2>
+//       {cartItems.length === 0 && <p>Your cart is empty.</p>}
+//       {cartItems.map((cartItem) => (
+//         <div key={cartItem.item.id}>
+//           <p>
+//             {cartItem.quantity} x {cartItem.item.name} @ $
+//             {cartItem.item.price.toFixed(2)} each
+//           </p>
+//           <button onClick={() => handleRemoveFromCart(cartItem.item.id)}>
+//             Remove
+//           </button>
