@@ -282,3 +282,11 @@ background-size: cover; */
 .news_input::placeholder {
   color: var(--primaryColor);
 }
+
+.right_news{
+  background-image: url('./images/news.jpg');
+  background-position: center;
+  background-size: cover;
+  border-radius: 0px 20px 20px 0px;
+  background-repeat: no-repeat;
+}

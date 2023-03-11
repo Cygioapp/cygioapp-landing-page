@@ -25,7 +25,7 @@ export default function Newsletter() {
                 <button className="_btn">Subscribe</button>
               </div>
             </Col>
-            <Col md={6}></Col>
+            <Col md={6} className='right_news'></Col>
           </Row>
         </Card>
       </div>
