@@ -1,5 +1,6 @@
 import { Container } from 'reactstrap'
 import './App.css'
+import AnimeSection from './LandingPage/AnimeSection'
 import CustomersReview from './LandingPage/CustomersReview'
 import Footer from './LandingPage/Footer'
 import Header from './LandingPage/Header'
@@ -18,6 +19,7 @@ function App() {
   return (
     <>
       <HeroSection />
+      <AnimeSection/>
       <Section1 />
       <Section2 />
       <TrustedSection />
