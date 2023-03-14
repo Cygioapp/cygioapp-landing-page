@@ -4,8 +4,8 @@ import Header from './Header'
 import lady from '../images/lady3.png'
 export default function HeroSection() {
   return (
-    <div className="first">
-      <Header />
+    <div className="first pt-4g">
+      {/* <Header /> */}
       <Container>
         <Row className="m-0 hero_section">
           <Col md={6} className="">

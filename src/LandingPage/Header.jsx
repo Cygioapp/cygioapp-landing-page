@@ -4,7 +4,7 @@ import logo from '../images/cygio-logo.png'
 import icon from '../images/cygio-icon.png'
 export default function Header() {
   return (
-    <div>
+    <div className="nav_">
       <Container>
         <Row className="m-0">
           <Col md={4} className="nav_col1">

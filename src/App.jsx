@@ -18,15 +18,16 @@ import TrustedSection from './LandingPage/TrustedSection'
 function App() {
   return (
     <>
+      <Header />
       <HeroSection />
-      <AnimeSection/>
+      <AnimeSection />
       <Section1 />
       <Section2 />
       <TrustedSection />
       <Section3 />
       <Section4 />
-      <Section5/>
-      <Section6/>
+      <Section5 />
+      <Section6 />
       <CustomersReview />
       <Newsletter />
       {/* <SectionDivider /> */}
