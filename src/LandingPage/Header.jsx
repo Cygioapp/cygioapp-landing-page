@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
-import logo from '../images/cygio-logo3.png'
+import logo from '../images/cygio-logo.png'
 import icon from '../images/cygio-icon.png'
 export default function Header() {
   return (

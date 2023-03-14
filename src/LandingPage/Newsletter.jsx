@@ -4,7 +4,7 @@ import { primaryColor } from './Colors'
 
 export default function Newsletter() {
   return (
-    <div style={{ paddingTop: 100, paddingBottom: 100 }} className="">
+    <div style={{ paddingTop: 100, paddingBottom: 100 }} className="newsletter_sec">
       <Container>
         <div className="newsletter_div">
           <Card className="newsletter_card shadow">
