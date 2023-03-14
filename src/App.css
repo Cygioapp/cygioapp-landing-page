@@ -165,9 +165,10 @@ background-size: cover; */
   border-radius: 20px;
 }
 
-.lady_image {
+.lady {
   border-radius: 30px;
-  width: 500px;
+  /* width: 250px; */
+  width: 350px;
 }
 
 /* //////////////////////////////////////////// */
@@ -283,31 +284,39 @@ background-size: cover; */
   color: var(--primaryColor);
 }
 
-.right_news{
-  background-image: url('./images/news.jpg');
+.right_news {
+  background-image: url("./images/news.jpg");
   background-position: center;
   background-size: cover;
   border-radius: 0px 20px 20px 0px;
   background-repeat: no-repeat;
 }
 
-.cus_card{
+.cus_card {
   border-radius: 30px !important;
   border: none !important;
-
 }
 
-.cus_name{
+.cus_name {
   color: var(--primaryColor);
   font-size: 20px;
   font-weight: bold;
 }
-.cust{
+.cust {
   width: 50px;
   border-radius: 50%;
 }
 
-.cus_div{
+.cus_div {
   position: absolute;
   top: -25px;
+}
+
+
+.anime_section{
+  
+}
+
+.cust_review{
+  
 }

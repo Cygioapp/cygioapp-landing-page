@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import Header from './Header'
-
+import lady from '../images/lady3.png'
 export default function HeroSection() {
   return (
     <div className="first">
@@ -47,7 +47,9 @@ export default function HeroSection() {
             </div>
           </Col>
           <Col md={6} className="">
-            <div style={{ justifyContent: 'center', display: 'flex' }}></div>
+            <div style={{ justifyContent: 'center', display: 'flex' }}>
+              {/* <img src={lady} alt='lady' className='lady'/> */}
+            </div>
           </Col>
         </Row>
       </Container>

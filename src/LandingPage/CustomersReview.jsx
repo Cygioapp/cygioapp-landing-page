@@ -36,7 +36,7 @@ export default function CustomersReview() {
     },
   ]
   return (
-    <div style={{ paddingTop: 100, paddingBottom: 100 }} className="">
+    <div style={{ paddingTop: 100, paddingBottom: 100 }} className="cust_review">
       <Container>
         <div className="text-center">
           <h1 className="section_heading">What our customers are saying</h1>

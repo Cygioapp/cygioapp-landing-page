@@ -29,7 +29,7 @@ export default function Header() {
           </Col>
           <Col md={4} className="nav_col3">
             <button className="m-0 auth_button shadow">
-              Start Your Free Trail
+              Start Your Free Trial
             </button>
           </Col>
         </Row>
