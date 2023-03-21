@@ -12,7 +12,6 @@ import Section3 from './LandingPage/Section3'
 import Section4 from './LandingPage/Section4'
 import Section5 from './LandingPage/Section5'
 import Section6 from './LandingPage/Section6'
-import SectionDivider from './LandingPage/SectionDivider'
 import TrustedSection from './LandingPage/TrustedSection'
 
 function App() {
