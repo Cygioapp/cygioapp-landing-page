@@ -50,7 +50,7 @@ export default function HeroSection() {
           <Col md={6} className="">
             <div style={{ justifyContent: 'center', display: 'flex' }}>
               {/* <img src={lady} alt='lady' className='lady'/> */}
-            <img src={svg1} style={{width:500}}/>
+            {/* <img src={svg1} style={{width:500}}/> */}
 
             </div>
           </Col>
