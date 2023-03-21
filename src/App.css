@@ -51,8 +51,8 @@
   background-color: white;
   position: fixed;
   width: 100%;
-  box-shadow: 0 4px 8px 0 rgba(198, 198, 198, 0.2),
-    0 3px 10px 0 rgba(206, 206, 206, 0.19);
+  box-shadow:
+    0 12px 40px 0 rgba(206, 206, 206, 0.19);
 
   z-index: 1;
 }
@@ -134,7 +134,7 @@
 }
 
 .hero_section {
-  height: 100vh;
+  height: 90vh;
 
   display: flex;
   /* justify-content: center !important; */

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
+import svg1 from '../images/10.svg'
 
 export default function Section4() {
   return (
@@ -23,7 +24,10 @@ export default function Section4() {
             </div>
           </Col>
           <Col md={6} className="">
-            <div style={{ justifyContent: 'center', display: 'flex' }}></div>
+            <div style={{ justifyContent: 'center', display: 'flex' }}>
+            <img src={svg1} style={{width:400}}/>
+
+            </div>
           </Col>
         </Row>
       </Container>
