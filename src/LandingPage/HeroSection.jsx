@@ -2,7 +2,7 @@ import React from 'react'
 import { Col, Container, Row } from 'reactstrap'
 import Header from './Header'
 import lady from '../images/lady3.png'
-import svg1 from '../images/9.svg'
+import svg1 from '../images/12.svg'
 export default function HeroSection() {
   return (
     <div className="first pt-5">
@@ -50,8 +50,7 @@ export default function HeroSection() {
           <Col md={6} className="">
             <div style={{ justifyContent: 'center', display: 'flex' }}>
               {/* <img src={lady} alt='lady' className='lady'/> */}
-            {/* <img src={svg1} style={{width:500}}/> */}
-
+              <img src={svg1} style={{ width: 700, height: 600, filter:'drop-shadow(5px 5px 10px grey)' }} />
             </div>
           </Col>
         </Row>

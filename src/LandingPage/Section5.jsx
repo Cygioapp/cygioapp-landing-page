@@ -9,7 +9,7 @@ export default function Section5() {
         <Row className="m-0 hero_section">
           <Col md={6} className="">
             <div style={{ justifyContent: 'center', display: 'flex' }}>
-            <img src={svg1} style={{width:500}}/>
+            <img src={svg1} className='section_img' style={{width:500}}/>
 
             </div>
           </Col>
@@ -23,7 +23,7 @@ export default function Section5() {
                   your customer are saying about you, to enable you stay ahead
                   of the curve and build an authentic brand experience.
                 </p>
-                <button className="land_btn">Text Goes Here</button>
+                <button className="land_btn">Read more...</button>
               </div>
             </div>
           </Col>

@@ -9,8 +9,13 @@ export default function Section3() {
         <Row className="m-0 hero_section">
           <Col md={6} className="">
             <div style={{ justifyContent: 'center', display: 'flex' }}>
-            <img src={svg1} style={{width:500}}/>
-
+              <img
+                src={svg1}
+                className="section_img"
+                style={{
+                  width: 500,
+                }}
+              />
             </div>
           </Col>
           <Col md={6} className="">
@@ -23,8 +28,7 @@ export default function Section3() {
                   Track all your KPIs, and visualize ROI without using
                   third-party tools.
                 </p>
-                <button className="land_btn">Text Goes Here</button>
-             
+                <button className="land_btn">Read more...</button>
               </div>
             </div>
           </Col>

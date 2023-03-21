@@ -19,15 +19,14 @@ export default function Section2() {
                   providing accurate feedbacks all on auto-pilot; think of
                   chatbots, but smarter and more intuitive.
                 </p>
-                <button className="land_btn">Text Goes Here</button>
+                <button className="land_btn">Read more...</button>
               
               </div>
             </div>
           </Col>
           <Col md={6} className="">
             <div style={{ justifyContent: 'center', display: 'flex' }}>
-            <img src={svg1} style={{width:500}}/>
-
+            <img className='section_img' src={svg1} style={{width:500}}/>
             </div>
           </Col>
         </Row>

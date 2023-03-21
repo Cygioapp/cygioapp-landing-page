@@ -19,13 +19,13 @@ export default function Section4() {
                   the best creators that can help you build brand equity and
                   trust.
                 </p>
-                <button className="land_btn">Text Goes Here</button>
+                <button className="land_btn">Read more...</button>
               </div>
             </div>
           </Col>
           <Col md={6} className="">
             <div style={{ justifyContent: 'center', display: 'flex' }}>
-            <img src={svg1} style={{width:400}}/>
+            <img className='section_img' src={svg1} style={{width:400}}/>
 
             </div>
           </Col>
